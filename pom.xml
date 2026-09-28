@@ -43,9 +43,10 @@
 
    <distributionManagement>
     <repository>
-        <id>nexus-releases</id>
-        <url>http://54.198.38.68:8081/repository/jenkins-nexus-sonar/</url>
+        <id>nexus-releases</id> <!-- this id always match with settings.xml  -->
+        <url>http://54.175.207.125:8081/repository/java-packages/</url>
     </repository>
 </distributionManagement>
+         
 
 </project>
